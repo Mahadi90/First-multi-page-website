@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 #navigation{
     display: flex;
     justify-content: space-between;
@@ -124,4 +125,32 @@ main{
     justify-content: space-between;
     color: gray;
     margin-top: 10px;
+}
+/* previous next button code start here */
+.previous-next-parent{
+    margin-top: 40px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.previous-next-parent  a{
+    text-decoration: none;
+    color: white;
+}
+.previous-next-parent > h3 > a{
+    background-color:#04AA6D;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+.previous-next-parent > div > a{
+    background-color: white;
+    color: black;
+    margin: 0 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+.previous-next-parent > div > a:first-child{
+    background-color: #04AA6D;
+    color: white;
 }
