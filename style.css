@@ -12,6 +12,8 @@
     align-items: center;
     border-top: 2px solid #21116e;
     border-bottom: 2px solid #21116e;
+    position: sticky;
+    top: 0;
 }
 #navigation > ul{
     display: flex;
