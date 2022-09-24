@@ -76,11 +76,13 @@ main{
     background-color: #2D236A;
     padding-top: 20px;
 }
+#main-section{
+    width: 1100px;
+    margin: 0 auto;
+}
 .latest-video-parent{
     display: flex;
     justify-content: space-between;
-    width: 1100px;
-    margin: 0 auto;
     padding: 15px 0;
     color: #04AA6D;
 }
@@ -93,4 +95,33 @@ main{
    padding: 5px;
    margin: 0 10px;
    border: 1px solid #80805b;
+   cursor: pointer;
+}
+/* images card start here */
+.card-img-parents{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 20px;
+    padding-bottom: 60px;
+}
+.card-img{
+    height: 250px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+.card-img img{
+    width: 100%;
+    height: 100%;
+    transition: .5s;
+}
+.card-img img:hover{
+    transform: scale(1.1);
+    border-radius: 5px;
+}
+.img-text{
+    display: flex;
+    justify-content: space-between;
+    color: gray;
+    margin-top: 10px;
 }
